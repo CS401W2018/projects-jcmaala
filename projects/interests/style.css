@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: blanchedalmond;
+}
+header h1{
+    font-family: cursive;
+}
+main h2, main h1{
+    font-family: cursive;
+}
+.strong{
+    font-weight: bold;
+}
+.highlight{
+    color: rgb(33, 11, 157);
+    font-weight: bold;
+}
+.headcolor {
+    background-color: blueviolet;
+}
+#links{
+    background-color: aquamarine; 
+}
+#accolades{
+    background-color: aquamarine;
+}
+#emptext{
+    color: rgb(33, 11, 157);
+    font-weight: bold;
+}
+#demptext{
+    font-weight: bold;
+}
+#colorch{
+    font-weight: bold;
+}
