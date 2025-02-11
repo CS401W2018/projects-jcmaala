@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(pexels-scottwebb-1029604.jpg) blue;
+    color: white;
+}
+header{
+    color: white;
+    background: url(DALL·E\ 2025-02-10\ 12.20.49\ -\ A\ simple\ blue\ wave\ clip\ art\,\ minimalistic\ design\,\ small\ size\ optimized\ for\ 20px\ by\ 20px.webp) top right no-repeat;
+}
+.list {
+    list-style-image: url(mark.png);
+}
