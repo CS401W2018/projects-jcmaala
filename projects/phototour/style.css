@@ -1,0 +1,30 @@
+body{
+    background: url(pexels-photo-2425781.jpeg) white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.current{
+    color: red;
+}
+header{
+    background: url(Flag_of_the_Philippines.svg.png) top right no-repeat;
+    padding: 20px;
+    text-align: justify;
+}
+footer p{
+    font-weight: bold;
+    color: white;
+}
+nav{
+    color: blue;
+}
+.list {
+    list-style-image: url(mark.png);
+}
+img{
+    display: block;
+    margin-bottom: 20px;
+}
+p, ul{
+    font-weight: bold;
+    color: aqua;
+}
