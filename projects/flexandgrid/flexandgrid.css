@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #0D6EFD;
+    padding: 5px;
+}
+nav{
+    background-color: #BB86FC;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#card2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+figcaption{
+    text-align: center;
+}
+.flowercard img{
+    width: 250px;
+}
+.flowercard{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+#footerlink{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#footerlink a{
+    display: block;
+}
