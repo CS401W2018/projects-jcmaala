@@ -12,6 +12,9 @@ body{
     box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
     width: 250px;
 }
+header{
+    background-color: aqua;
+}
 header h1{
     margin: 0;
 }
@@ -38,4 +41,29 @@ nav a:hover{
 }
 .card img{
     width: 100%;
+}
+
+@media ONLY screen AND (max-width: 600px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+     .card{
+        width:80%;
+        margin-bottom: 15px;
+    }
+    .mainc{
+        order: -1;
+    }   
+}
+
+@media ONLY screen AND (max-width :450px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        border-bottom: thin solid white;
+        width: 100%;
+    } 
 }
