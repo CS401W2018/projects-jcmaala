@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: #007BFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #00FFFF;
+    color: black;
+    font-weight: bold;
+}
+main{
+    background-color: #ADD8E6;
+}
+aside{
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    background-color: #E3F2FD;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+table{
+    width: 80%;
+}
+.headcont{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.headcont h2{
+    display: inline-block;
+    margin:10px 20px;
+    font-size: 22px;
+}
+.contentcont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.champs{
+    text-align: center;
+    caption-side: bottom;
+    box-shadow: 5px 5px 5px #007BFF;
+    border:3px solid black;
+    margin-bottom: 10px;
+}
+.champs th{
+    background-color: #007BFF;
+    color: white;
+}
+.champs th, .champs td{
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.champs tr:nth-child(even){
+    background-color: #E3F2FD;
+}
+.champs tr:nth-child(odd){
+    background-color: #FFFFFF;
+}
+footer{
+    background-color: #003366;
+    color: white;
+    padding: 5px;
+}
