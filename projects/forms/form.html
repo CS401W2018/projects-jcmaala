@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <nav>
+        <a href="#"> Link</a>
+        <a href="#"> Link</a>
+        <a href="#"> Link</a>
+        <a href="#"> Link</a>
+    </nav>
+    <main>
+        <h2>Registration for Spring 2025</h2>
+        <form action="information.html">
+            <fieldset>
+                <legend>Register for Class</legend>
+                <div class="form-row">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fullname" id="fname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+                </div>
+                <div class="form-row">
+                    <label for="phone">Phone:</label>
+                    <input type="phone" name="phone" id="phone">
+                </div>
+                <div class="form-row">
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" name=bday id="birthdate">
+                </div>
+                <div class="form-row">
+                    <label for="studID">Student ID:</label>
+                    <input type="text" name="studID" id="studID">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-row">
+                    <label for="class">Select Class:</label>
+                    <select name="class" id="class">
+                        <option value="blank">Please Select</option>
+                        <option value="EIL320">EIL 320</option>
+                        <option value="IT124">IT 124</option>
+                        <option value="CS140">CS 140</option>
+                        <option value="CS101">CS 101</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                <div class="spacer"></div>
+                <div>Class Mode:</div>
+                    <label><input type="radio" name="cmode" value="online">Online</label>
+                    <label><input type="radio" name="cmode" value="inperson">In Person</label>
+                </div>
+                <div class="form-row">
+                    <label for=comments>Comments:</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+                <div class="form-row">
+                <div class="spacer-terms"></div>
+                    <label><input type="checkbox" name="terms">Agree to Terms</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer-submit"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+        <footer>
+            <p>&copy; 2025 JC Maala</p>
+        </footer>
+    </main>
+</body>
+</html>

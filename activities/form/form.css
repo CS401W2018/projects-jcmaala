@@ -1,55 +1,55 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: beige;
-}
-fieldset{
-    background-color: aquamarine;
-    border-radius: 5px;
-}
-legend{
-    background-color: rgb(92, 92, 174);
-    color: white;
-    padding: 10px 20px;
-}
-.form-row{
-    display: flex;
-    margin: 10px 0;
-    gap: 10px;
-}
-.form-row input:not([type="submit"]){
-    padding: 5px 10px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #777;
-}
-.form-row input:not([type="submit"]):focus{
-    background-color: #fff;
-}
-.form-row input[type="submit"]{
-    padding: 10px;
-    background-color: rgb(92, 92, 174);
-    color: white;
-    font-size: 16px;
-    border-radius: 5px;
-}
-.radio-row{
-    display: flex;
-    gap: 10px;
-    margin: 10px 0;
-}
-.form-row label{
-    width: 150px;
-    text-align: right;
-}
-.form-spacer{
-    width: 150px;
-    text-align: right;
-}
-
-@media ONLY screen AND (max-width: 600px){
-    .form-row, .radio-row{
-        flex-direction: column;
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+    }
+    fieldset{
+        background-color: aquamarine;
+        border-radius: 5px;
+    }
+    legend{
+        background-color: rgb(92, 92, 174);
+        color: white;
+        padding: 10px 20px;
+    }
+    .form-row{
+        display: flex;
+        margin: 10px 0;
+        gap: 10px;
+    }
+    .form-row input:not([type="submit"]){
+        padding: 5px 10px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #777;
+    }
+    .form-row input:not([type="submit"]):focus{
+        background-color: #fff;
+    }
+    .form-row input[type="submit"]{
+        padding: 10px;
+        background-color: rgb(92, 92, 174);
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .radio-row{
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
     }
     .form-row label{
-        text-align: left;
+        width: 150px;
+        text-align: right;
     }
-}
+    .form-spacer{
+        width: 150px;
+        text-align: right;
+    }
+
+    @media ONLY screen AND (max-width: 600px){
+        .form-row, .radio-row{
+            flex-direction: column;
+        }
+        .form-row label{
+            text-align: left;
+        }
+    }
