@@ -15,9 +15,11 @@ document.getElementById('myForm').addEventListener('submit', function(event){
     }
     if(phone.length > 14){
         alert("Phone number invalid");
+        return;
     }
     if(!studentid || !password){
         alert("Please enter your Student ID and/or Password!")
+        return;
     }
 
     const formData = {
@@ -29,8 +31,6 @@ document.getElementById('myForm').addEventListener('submit', function(event){
         password: password,
         class: klase
     };
-
-    console.log(formData);
 
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "submit.json", true);
