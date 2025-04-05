@@ -121,6 +121,17 @@ table{
         font-size: 90%;
         padding: 5px;
     }
+    .statstab{
+        overflow-x: auto;
+        display: block;
+    }
+    .table.statstab{
+        width: 100%;
+        min-width:  450px;
+    }
+    .tabcont{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 450px){
     nav{
@@ -140,15 +151,5 @@ table{
     #wrapper{
         text-align: center;
     }
-    .statstab{
-        overflow-x: auto;
-        display: block;
-    }
-    .table.statstab{
-        width: 100%;
-        min-width:  450px;
-    }
-    .tabcont{
-        text-align: center;
-    }
+   
 }
